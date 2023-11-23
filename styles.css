@@ -1,5 +1,48 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+#all-players-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.player-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.player-details {
+    margin-top: 10px;
+}
+
+#new-player-form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#addPlayerForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#addPlayerForm label {
+    margin-bottom: 5px;
+}
+
+#addPlayerForm input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#addPlayerForm button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
